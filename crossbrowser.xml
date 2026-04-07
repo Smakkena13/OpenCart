@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="mysuite" >
+<suite name="mysuite" parallel="tests">
     <listeners>
         <listener class-name="Utility.ExtentReportManager"/>
     </listeners>
 
-    <test name="mytest">
+    <test name="mytest1">
         <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testCases.TC01_AccountRegistration"/>
+        </classes>
+    </test>
+    <test name="mytest2">
+        <parameter name="browser" value="edge"/>
         <classes>
             <class name="testCases.TC01_AccountRegistration"/>
         </classes>
