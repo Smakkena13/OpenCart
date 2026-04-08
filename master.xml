@@ -8,7 +8,9 @@
     <test name="mytest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.TC01_AccountRegistration"/>
+<!--            <class name="testCases.TC01_AccountRegistration"/>-->
+<!--            <class name="testCases.TC02_Login"/>-->
+            <class name="testCases.TC02_LoginDD"></class>
         </classes>
     </test>
 </suite>

@@ -26,9 +26,9 @@ import java.util.Date;
 import java.util.Properties;
 
 public class BaseClass {
-    public WebDriver driver;
+    public static WebDriver driver;
     public static final Logger log;
-    Properties p;
+    public Properties p;
     RandomStringUtils rm;
 
     static {
@@ -83,13 +83,6 @@ public class BaseClass {
         log.info("maximized the browser");
     }
 
-    @AfterClass
-    public void tearDown(){
-
-        System.out.println("tear down");
-//        driver.quit();
-        log.info("Test completed");
-    }
     public String randomString(){
         rm=new RandomStringUtils();
         String alpha=rm.randomAlphabetic(5);
@@ -118,5 +111,12 @@ public class BaseClass {
         source.renameTo(target);
         return targetFilepath;
 
+    }
+    @AfterClass
+    public void tearDown(){
+
+        System.out.println("tear down");
+//        driver.quit();
+        log.info("Test completed");
     }
 }
