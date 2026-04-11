@@ -57,7 +57,7 @@ public class BaseClass {
         log = LogManager.getLogger(BaseClass.class);
     }
 
-    @BeforeClass
+    @BeforeClass(groups={"sanity","regression"})
     @Parameters({"browser"})
     public void setUp(String br) throws IOException {
         log.info("Test started");
@@ -112,7 +112,7 @@ public class BaseClass {
         return targetFilepath;
 
     }
-    @AfterClass
+    @AfterClass(groups={"sanity","regression"})
     public void tearDown(){
 
         System.out.println("tear down");

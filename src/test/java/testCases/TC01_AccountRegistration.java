@@ -10,7 +10,7 @@ import testBase.BaseClass;
 //@Listeners(Utility.ExtentReportManager.class)
 public class TC01_AccountRegistration extends BaseClass{
 
-    @Test
+    @Test(groups = "sanity")
     void testRegister(){
         HomePage hp=new HomePage(driver);
         hp.clkMyAcc();

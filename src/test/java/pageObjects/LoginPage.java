@@ -16,12 +16,10 @@ public class LoginPage extends BasePage{
     WebElement txtpassword;
     @FindBy(xpath = "//input[@value='Login']")
     WebElement btnLogin;
-    @FindBy(xpath = "//h2[normalize-space()='My Account']")
-    WebElement txtMyAcc;
-    @FindBy(xpath = "(//a[text()='Logout'])[2]")
-    WebElement btnLogout;
-    @FindBy(xpath = "(//a[text()='Login'])[2]")
-    WebElement btnLogin2;
+    @FindBy(xpath = "//a[text()='Forgotten Password']")
+    WebElement linkforgotpwd;
+    @FindBy(xpath = "//div[contains(text(),'confirmation')]")
+    WebElement txtalert;
 
 
     public void setTxtemail(String e){
@@ -33,13 +31,11 @@ public class LoginPage extends BasePage{
     public void clkLogin(){
         btnLogin.click();
     }
-    public boolean getTxtMyAcc(){
-        return txtMyAcc.isDisplayed();
+    public void clkforgotpwd(){
+        linkforgotpwd.click();
     }
-    public void clkLogout(){
-        btnLogout.click();
+    public boolean txtAlert(){
+        return txtalert.isDisplayed();
     }
-    public void clkLogin2(){
-        btnLogin2.click();
-    }
+
 }

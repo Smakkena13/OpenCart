@@ -6,13 +6,16 @@
     </listeners>
 
     <test name="mytest">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
         <parameter name="browser" value="chrome"/>
         <classes>
             <class name="testCases.TC01_AccountRegistration"/>
             <class name="testCases.TC02_Login"/>
 <!--            <class name="testCases.TC02_LoginDD"></class>-->
-            <class name="testCases.TC03_Logout"/>
-            <class name="testCases.TC04_ForgotPassword"></class>
         </classes>
     </test>
 </suite>

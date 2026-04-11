@@ -1,0 +1,8 @@
+2026-04-10 10:37:41 [main] INFO  testBase.BaseClass - Test started
+2026-04-10 10:37:41 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-10 10:37:50 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-10 10:38:32 [main] INFO  testBase.BaseClass - Test completed
+2026-04-10 10:39:01 [main] INFO  testBase.BaseClass - Test started
+2026-04-10 10:39:01 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-10 10:39:06 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-10 10:39:10 [main] INFO  testBase.BaseClass - Test completed

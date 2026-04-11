@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
 public class TC02_LoginDD extends BaseClass {
@@ -18,7 +19,8 @@ public class TC02_LoginDD extends BaseClass {
         lp.setTxtemail(email);
         lp.setTxtpassword(password);
         lp.clkLogin();
-        boolean flag=lp.getTxtMyAcc();
+        MyAccountPage ap=new MyAccountPage(driver);
+        boolean flag=ap.getTxtMyAcc();
 
         //valid ->login success  ->test pass
 //              ->login failed   ->test fail
@@ -29,8 +31,8 @@ public class TC02_LoginDD extends BaseClass {
         if(result.equalsIgnoreCase("valid")){
             if(flag==true){
                 System.out.println("valid- Login successful");
-                lp.clkLogout();
-                lp.clkLogin2();
+                ap.clkLogout();
+                ap.clkLogin2();
                 Assert.assertTrue(true);
             }else{
                 System.out.println("valid- Login failed");
