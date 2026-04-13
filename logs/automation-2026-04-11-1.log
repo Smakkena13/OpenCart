@@ -1,0 +1,28 @@
+2026-04-11 16:35:30 [main] INFO  testBase.BaseClass - Test started
+2026-04-11 16:35:30 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-11 16:35:38 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-11 16:35:41 [main] INFO  testBase.BaseClass - Test completed
+2026-04-11 16:37:47 [main] INFO  testBase.BaseClass - Test started
+2026-04-11 16:37:47 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-11 16:37:51 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-11 16:37:54 [main] INFO  testBase.BaseClass - Test completed
+2026-04-11 17:10:02 [main] INFO  testBase.BaseClass - Test started
+2026-04-11 17:10:02 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-11 17:10:07 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-11 17:10:15 [main] INFO  testBase.BaseClass - Test completed
+2026-04-11 17:12:34 [main] INFO  testBase.BaseClass - Test started
+2026-04-11 17:12:34 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-11 17:12:38 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-11 17:12:40 [main] INFO  testBase.BaseClass - Test completed
+2026-04-11 17:12:40 [main] INFO  testBase.BaseClass - Test started
+2026-04-11 17:12:40 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-11 17:12:43 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-11 17:12:45 [main] INFO  testBase.BaseClass - Test completed
+2026-04-11 17:12:45 [main] INFO  testBase.BaseClass - Test started
+2026-04-11 17:12:45 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-11 17:12:48 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-11 17:12:50 [main] INFO  testBase.BaseClass - Test completed
+2026-04-11 17:12:50 [main] INFO  testBase.BaseClass - Test started
+2026-04-11 17:12:50 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-11 17:12:54 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-11 17:12:58 [main] INFO  testBase.BaseClass - Test completed

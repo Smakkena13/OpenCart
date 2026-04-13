@@ -8,11 +8,12 @@
     <test name="mytest">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="testCases.TC01_AccountRegistration"/>
-            <class name="testCases.TC02_Login"/>
+<!--            <class name="testCases.TC01_AccountRegistration"/>-->
+<!--            <class name="testCases.TC02_Login"/>-->
 <!--            <class name="testCases.TC02_LoginDD"></class>-->
-            <class name="testCases.TC03_Logout"/>
-            <class name="testCases.TC04_ForgotPassword"></class>
+<!--            <class name="testCases.TC03_Logout"/>-->
+<!--            <class name="testCases.TC04_ForgotPassword"></class>-->
+            <class name="testCases.TC05_Search"/>
         </classes>
     </test>
 </suite>
