@@ -1,0 +1,22 @@
+2026-04-13 10:00:30 [main] INFO  testBase.BaseClass - Test started
+2026-04-13 10:00:30 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-13 10:00:35 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-13 10:00:36 [main] INFO  testBase.BaseClass - Test completed
+2026-04-13 10:21:46 [main] INFO  testBase.BaseClass - Test started
+2026-04-13 10:21:46 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-13 10:21:55 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-13 10:21:56 [main] INFO  testBase.BaseClass - Test completed
+2026-04-13 10:23:10 [main] INFO  testBase.BaseClass - Test started
+2026-04-13 10:23:10 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-13 10:23:15 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-13 10:23:17 [main] INFO  testBase.BaseClass - Test completed
+2026-04-13 10:28:31 [main] INFO  testBase.BaseClass - Test started
+2026-04-13 10:28:31 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-13 10:28:37 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-13 10:28:39 [main] INFO  testBase.BaseClass - Test completed
+2026-04-13 10:29:54 [main] INFO  testBase.BaseClass - Test started
+2026-04-13 10:29:54 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-13 10:30:32 [main] INFO  testBase.BaseClass - Test started
+2026-04-13 10:30:32 [main] INFO  testBase.BaseClass - intializing the browser
+2026-04-13 10:30:35 [main] INFO  testBase.BaseClass - maximized the browser
+2026-04-13 10:30:41 [main] INFO  testBase.BaseClass - Test completed

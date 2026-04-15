@@ -17,13 +17,17 @@ public class SearchPage extends BasePage {
     WebElement contentbox;
     @FindBy(xpath = "(//div[@class='row'])[5]//h4")
     List<WebElement> txtProducts;
+    @FindBy(xpath = "//div[@class='image']//a")
+    WebElement imageclk;
 
 
     public void setContentbox() {
         JavascriptExecutor js = (JavascriptExecutor) driver;
         js.executeScript("arguments[0].scrollIntoView()", contentbox);
     }
-
+    public void clkImage(){
+        imageclk.click();
+    }
     public void totalProductstext() {
         for (WebElement e : txtProducts) {
             System.out.print(e.getText()+" ");

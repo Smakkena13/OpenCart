@@ -13,7 +13,8 @@
 <!--            <class name="testCases.TC02_LoginDD"></class>-->
 <!--            <class name="testCases.TC03_Logout"/>-->
 <!--            <class name="testCases.TC04_ForgotPassword"></class>-->
-            <class name="testCases.TC05_Search"/>
+<!--            <class name="testCases.TC05_Search"/>-->
+            <class name="testCases.TC06_ProductCompare"/>
         </classes>
     </test>
 </suite>
